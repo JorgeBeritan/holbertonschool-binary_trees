@@ -5,6 +5,8 @@ binary_tree_t
 {
 	binary_tree_t *newNode;
 
+	if (parent == NULL)
+		return (NULL);
 	newNode = binary_tree_node(parent, value);
 	if (parent->left)
 	{
