@@ -16,11 +16,12 @@ binary_tree_height(const binary_tree_t *tree)
 		else
 			return (right);
 	}
-	else 
+	else
 		return (0);
 }
 
-size_t binary_tree_size(const binary_tree_t *tree)
+size_t
+binary_tree_size(const binary_tree_t *tree)
 {
 	unsigned int left, right, n_total = 0;
 
